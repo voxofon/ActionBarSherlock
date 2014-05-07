@@ -300,7 +300,21 @@
         <item name="android:popupBackground">@drawable/abs__menu_dropdown_panel_holo_light</item>
     </style>
 
+    <style name="DialogWindowTitle.Sherlock" parent="Widget">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.Sherlock.DialogWindowTitle</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+    </style>
 
+    <style name="DialogWindowTitle.Sherlock.Light" parent="Widget">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.Sherlock.Light.DialogWindowTitle</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+    </style>
 
     <style name="TextAppearance.Sherlock.Widget.ActionBar.Menu" parent="Widget">
         <item name="android:textSize">12sp</item>
@@ -308,6 +322,12 @@
         <item name="android:textColor">?attr/actionMenuTextColor</item>
         <item name="android:textAllCaps">@bool/abs__config_actionMenuItemAllCaps</item>
     </style>
+    
+    <style name="TextAppearance.Sherlock.DialogWindowTitle" parent="Widget">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="TextAppearance.Sherlock.Light.DialogWindowTitle" parent="TextAppearance.Sherlock.DialogWindowTitle"></style>
 
     <style name="TextAppearance.Sherlock.Widget.ActionBar.Title" parent="Widget">
         <item name="android:textSize">@dimen/abs__action_bar_title_text_size</item>
